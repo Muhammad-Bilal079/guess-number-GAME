@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#wrapper {
+    height: 70vh;
+    width: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#guess {
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+.form input {
+    padding: 8px;
+    margin: 10px;
+}
+
+#subt {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
